@@ -13,12 +13,6 @@ We manually disassembled the Python 3.14 bytecode to prove otherwise.
 
 The "undecompilable" EXE was just a standard Python script using `tkinter` and `pynput`. We stripped the broken headers and compiled bloat so you can run the raw code safely.
 
-### How to Run
-
-1. **Clone this repo.**
-2. **Install dependency:** `pip install pynput`
-3. **Run:** `python macro.py`
-
 ### ⚠️ Community Warning
 
 **Don't run sketchy, key-authenticated macros that try to profit from free community discoveries.** If the technique was discovered by the community, you shouldn't have to run opaque, gatekept EXEs to use it. Support open source.
